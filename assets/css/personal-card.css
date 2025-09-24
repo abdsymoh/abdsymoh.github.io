@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+
+.personal-card {
+  background-color: #fff;
+  width: 100%;
+  max-width: fit-content;
+  min-width: 0;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.personal-card .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-gray-primary);
+}
+
+.personal-card .profile-pic img {
+  width: inherit;
+  height: inherit;
+}
+
+.personal-card .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.personal-card .info .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.personal-card .info .job {
+  font-size: 1.1rem;
+  color: var(--color-gray-light);
+}
+
+.personal-card .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.personal-card .social-links .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: var(--color-gray-lightest);
+  color: var(--color-gray-primary);
+}

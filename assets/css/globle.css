@@ -1,0 +1,71 @@
+/* Fonts */
+@import url(/assets/fonts/BalooBhaijaan2.css);
+
+/* Font Awesome */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css);
+
+/* Colors */
+:root {
+  /* ألوان الخلفيات أو الظلال الفاتحة */
+  --color-gray-lightest: #ebebeb;
+  --color-gray-lighter: #adadad;
+  --color-gray-light: #707070;
+  /* اللون الرئيسي */
+  --color-gray-primary: #333333;
+  /* الألوان الداكنة */
+  --color-gray-dark: #242424;
+  --color-gray-darker: #1a1a1a;
+  /* الخط */
+  --BalooBhaijaan2: "BalooBhaijaan2";
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  direction: rtl;
+  font-size: 16px;
+  font-family: var(--BalooBhaijaan2);
+  color: var(--color-gray-primary);
+}
+
+body {
+  background-color: var(--color-gray-lightest);
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100svh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-gray-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-gray-lightest);
+}
+
+.footer p {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.footer p a {
+  color: var(--color-gray-lighter);
+  text-decoration: underline;
+}
