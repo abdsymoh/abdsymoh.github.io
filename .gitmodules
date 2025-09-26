@@ -1,0 +1,9 @@
+[submodule "spaces/freecodecamp"]
+	path = spaces/freecodecamp
+	url = https://github.com/abdsymoh/freecodecamp.git
+[submodule "spaces/elzerowebschool"]
+	path = spaces/elzerowebschool
+	url = https://github.com/abdsymoh/elzerowebschool.git
+[submodule "spaces/codewars"]
+	path = spaces/codewars
+	url = https://github.com/abdsymoh/codewars.git
