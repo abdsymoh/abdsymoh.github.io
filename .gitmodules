@@ -1,9 +1,0 @@
-[submodule "learn/freecodecamp"]
-	path = learn/freecodecamp
-	url = https://github.com/abdsymoh/freecodecamp.git
-[submodule "learn/elzerowebschool"]
-	path = learn/elzerowebschool
-	url = https://github.com/abdsymoh/elzerowebschool.git
-[submodule "learn/codewars"]
-	path = learn/codewars
-	url = https://github.com/abdsymoh/codewars.git
